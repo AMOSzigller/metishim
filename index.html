@@ -3,53 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>מתישים</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            direction: rtl;
-            text-align: center;
-            background-color: #f9f9f9;
-        }
-        h1 {
-            color: #333;
-            font-size: 48px;
-            margin-top: 50px;
-        }
-        .container {
-            margin: 0 auto;
-            width: 80%;
-        }
-        .image-placeholder {
-            margin-top: 30px;
-        }
-        img {
-            width: 300px;
-            height: auto;
-        }
-        footer {
-            margin-top: 50px;
-            font-size: 14px;
-            color: #777;
-        }
-    </style>
+    <title>מעקב מניות וקריפטו</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="container">
-        <h1>><</h1>
-        <div class="image-placeholder">
-            <img src="eliyahu_yossian.jpg" alt="אליהו יוסיאן">
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy;מתישים. כל הזכויות מותשות</p>
-    </footer>
-
+    <h1>מעקב מניות וקריפטו</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>נכס</th>
+                <th>מחיר נוכחי</th>
+                <th>שינוי שעה</th>
+                <th>שינוי 24 שעות</th>
+                <th>שינוי שבוע</th>
+            </tr>
+        </thead>
+        <tbody id="data-table">
+            <!-- הנתונים ייטענו כאן -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
